@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Fundamentos
 {
-    public class Gato : Animal
+    public class Elfo : Personagem
     {
-        public override void emitirsom()
+        public void apresentarSe()
         {
-            Console.WriteLine("Miau Miau");
+            throw new NotImplementedException();
         }
     }
 }
